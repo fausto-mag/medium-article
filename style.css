@@ -1,0 +1,74 @@
+#special-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 900px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 750px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 450px;
+    color: aqua;
+  }
+}
+
+@media (max-width: 500px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 350px;
+  }
+}
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: #929090;
+  text-align: left;
+}
+
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  color: #ffffff
+}
+
+body {
+  background-color: #ececec;
+  color: #1e1e1e;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0px;
+}
+
+.container {
+  text-align: left;
+  color: rgb(27, 27, 27);
+  width: 700px;
+  margin: 50px auto;
+
+}
+
+.header{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  background-color: rgba(199, 249, 204, 0.4);
+  padding: 5px;
+}
+
+a:hover {
+  background-color: rgba(128, 237, 153, 1)
+}
